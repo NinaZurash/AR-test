@@ -1,3 +1,3 @@
 window.addEventListener('arjs-nft-loaded', (event) => {
-  console.log('--------------------')
+  window.alert(214)
 })
