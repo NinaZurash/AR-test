@@ -1,24 +1,15 @@
 {
-  "name": "ar-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "name": "ar-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "http-server -p 8080 --host 192.168.1.68 --ssl --cert certificate.pem --key key.pem"
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NinaZurash/AR-test.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NinaZurash/AR-test/issues"
-  },
-  "homepage": "https://github.com/NinaZurash/AR-test#readme",
-  "dependencies": {
-    "http-server": "^14.1.1"
+  "devDependencies": {
+    "vite": "^4.3.9",
+    "vite-plugin-mkcert": "^1.16.0"
   }
 }
