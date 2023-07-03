@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
+    "start": "serve dist",
     "build": "vite build",
-    "preview": "vite preview",
-    "start": "serve dist"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^4.3.9",
